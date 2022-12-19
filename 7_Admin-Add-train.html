@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin-add_train</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <a href="Home.html">Home</a>
+    <a href="Admin-add_train.html">add_train</a>
+    <a href="Admin-user_details.php">user_details</a>
+    <a href="Admin-booking_details.php">booking_details</a>
+    <a href="Admin-train_details.php">trains_details</a><br>
+    <h2>add_train</h2>
+    <form action="process_A_add_train.php" method="post">
+        <p>
+            <label>Train_no:</label>
+            <input type="number" id="Train_no" name="Train_no" />
+        </p>
+        <p>
+            <label>Train_name:</label>
+            <input type="text" name="Train_name" id="Train_name" />
+        </p>
+        <p>
+            <label>Source:</label>
+            <input type="text" id="Source" name="Source" />
+        </p>
+        <p>
+            <label>Destination:</label>
+            <input type="text" id="Destination" name="Destination" />
+        </p>
+        <p>
+            <label>Arrival_time:</label>
+            <input type="time" id="Arrival_time" name="Arrival_time" />
+        </p>
+        <p>
+            <label>Departure_time:</label>
+            <input type="time" id="Departure_time" name="Departure_time" />
+        </p>
+        <p>
+            <label>Availibility-of_seats:</label>
+            <input type="number" id="Availibility-of_seats" name="Availibility-of_seats" />
+            <label>AC_seats:</label>
+            <input type="number" id="AC_seats" name="AC_seats" />
+            <label>AC_fare:</label>
+            <input type="number" id="AC_fare" name="AC_fare" />
+            <label>SL_seats:</label>
+            <input type="number" id="SL_seats" name="SL_seats" />
+            <label>SL_fare:</label>
+            <input type="number" id="SL_fare" name="SL_fare" />
+            <label>General_seats:</label>
+            <input type="number" id="General_seats" name="General_seats" />
+            <label>General_fare:</label>
+            <input type="number" id="General_fare" name="General_fare" />
+        </p>
+
+        <p>
+            <label>date:</label>
+            <input type="date" id="date" name="date" />
+        </p>
+        <p>
+            <br><br>
+            <input type="submit" id="btn" name="add_train" value="add_train" />
+
+        </p>
+    </form>
+    </form>
+
+</body>
+
+</html>
