@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>user_login</title>
+    <link rel="stylesheet" type="text/css" href="css/style3.css">
+</head>
+
+<body>
+    <img style="position: absolute;left:850px;top:380px; " src="animation.jpg" height="30%" width="30%" />
+    <a id="link1" href="Home.html">&nbsp;&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a id="link2" href="user_login.html">&nbsp;&nbsp;&nbsp;&nbsp;User_login&nbsp;&nbsp;&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a id="link3" href="register.html">&nbsp;&nbsp;&nbsp;&nbsp;Register&nbsp;&nbsp;&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a id="link4" href="Admin_login.html">&nbsp;&nbsp;&nbsp;&nbsp;Administration_login&nbsp;&nbsp;&nbsp;&nbsp;</a><br/><br/>
+    <div  style="position:relative;left:350px;top:20px;">
+    <form action="process_U_login.php" method="post">
+        <h2 style="font-family:Castellar;color: rgb(4, 74, 92);"><b>U S E R__L O G I N</b></h2>
+        <font style="color: rgb(4, 62, 65);font-family: Castellar;"><b>
+        <p>
+            <label>Username:</label>
+            <input type="text" id="user" name="user" />
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" id="pass" name="pass" />
+        </p>
+        <p>
+
+            <input type="submit" id="btn" name="Login" value="Login" />
+            <p>
+                Don't have account!!<br />
+                <a href="register.html">Register</a>
+            </p>
+        </p></b>
+        </font>
+    </div>  
+
+    </form>
+</body>
+
+</html>
